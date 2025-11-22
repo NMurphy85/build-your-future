@@ -8,7 +8,6 @@
   color: rgb(185, 89, 25);
   text-align: center;
   animation: fadeUp 1s ease-in-out;
-  
 }
 
 /* Banner content */
@@ -42,13 +41,12 @@
 
 .banner button:hover {
   background-color: #f2f2f2;
-  transform: scale(1.50);
-  background: linear-gradient(rgb(13, 5, 119),rgb(19, 5, 71),blue);
+  transform: scale(1.5);
+  background: linear-gradient(rgb(13, 5, 119), rgb(19, 5, 71), blue);
   background-position: 100% 50% 25%;
-
 }
 
-.banner button::after{
+.banner button::after {
   content: "🚀🚀🚀🚀🚀🚀🚀🚀🚀";
   margin-left: 10px;
 }
@@ -89,13 +87,11 @@
   .banner h1 {
     font-size: 10vw;
   }
-
   .banner p {
     font-size: 5vw;
   }
 }
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
